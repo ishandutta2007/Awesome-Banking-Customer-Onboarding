@@ -4,7 +4,7 @@
 
 <p center>
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Banking-Customer-Onboarding/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Banking-Customer-Onboarding?style=flat-square&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Banking-Customer-Onboarding/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Banking-Customer-Onboarding?style=flat-square&color=gold" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Banking-Customer-Onboarding/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Banking-Customer-Onboarding?style=flat-square&color=blue" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Banking-Customer-Onboarding/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -57,9 +57,9 @@ Below is the structured list of leading enterprise SaaS solutions, **sorted by C
 
 Open-source banking solutions provide transparent, self-hosted building blocks for core ledger management, face matching, OCR document parsing, and custom eKYC orchestration pipelines.
 
-Below are the top active open-source projects, **sorted by GitHub Star Count in descending order**. Click on any star badge to view the stargazers page!
+Below are the top active open-source projects, **sorted by GitHub Stars_Count in descending order**. Click on any Stars_Badge to view the stargazers page!
 
-| 📦 Repository & Link | ⭐ GitHub Stars | 🛠️ Tech Stack & Focus | 🚀 Overview & Key Features |
+| 📦 Repository & Link | ⭐ GitHub_Stars | 🛠️ Tech Stack & Focus | 🚀 Overview & Key Features |
 | :--- | :--- | :--- | :--- |
 | **[apache/fineract](https://github.com/apache/fineract)** | [![Stars](https://img.shields.io/github/stars/apache/fineract?style=social&color=white)](https://github.com/apache/fineract/stargazers) | Java, Spring Boot, MySQL | Enterprise core banking backend engine powering **Mifos X**. Provides REST APIs for customer creation, savings/loan lifecycle management, and financial ledgers. |
 | **[kby-ai/FaceRecognition-Android](https://github.com/kby-ai/FaceRecognition-Android)** | [![Stars](https://img.shields.io/github/stars/kby-ai/FaceRecognition-Android?style=social&color=white)](https://github.com/kby-ai/FaceRecognition-Android/stargazers) | C++, Java, Android SDK | On-device face recognition & liveness detection SDK. NIST-FRVT top-ranked offline biometrics for Android eKYC onboarding applications. |
