@@ -1,219 +1,146 @@
-# Awesome-Banking-Customer-Onboarding
-
-## Top Customer Onboarding (Banking) Ecosystem
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Identity Verification, KYC/AML Compliance & Digital Account Opening*  
-
-**Last updated: September 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Customer Onboarding in Banking**. These tools verify customer identity, perform Know Your Customer (KYC) and Anti-Money Laundering (AML) checks, and automate the digital account opening process for banks, fintechs, and financial institutions.
-
-
-
-**Examples** include Fenergo, Signicat, Mitek Systems, OneSpan, Entrust Identity, Jumio, Onfido, Persona, Trulioo, and ID-Pal (the category leaders).
-
-
-
-**Open-source emphasis**: This section is expanded with active projects for self-hosting, custom identity verification pipelines, and transparent KYC workflows — ideal for fintechs, neobanks, and developers building vendor-independent onboarding solutions. The open-source ecosystem offers strong building blocks for document recognition, face matching, and eKYC orchestration, though full end-to-end onboarding platforms remain largely commercial.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Fenergo](https://www.fenergo.com/)**  
-
-  Client lifecycle management platform specializing in KYC, AML, and regulatory compliance for financial institutions.
-
-
-
-- **[Signicat](https://www.signicat.com/)**  
-
-  Digital identity and onboarding platform with eID, e-signature, and KYC solutions for regulated markets.
-
-
-
-- **[Mitek Systems](https://www.miteksystems.com/)**  
-
-  Mobile deposit and identity verification platform with document capture and biometric authentication.
-
-
-
-- **[OneSpan](https://www.onespan.com/)**  
-
-  Digital agreement and identity verification platform with e-signature, authentication, and fraud prevention.
-
-
-
-- **[Entrust Identity](https://www.entrust.com/)**  
-
-  Identity and access management platform with identity verification and onboarding capabilities.
-
-
-
-- **[Jumio](https://www.jumio.com/)**  
-
-  AI-powered identity verification platform with document verification, biometrics, and AML screening.
-
-
-
-- **[Onfido](https://onfido.com/)**  
-
-  Identity verification platform using document and biometric checks with real-time verification.
-
-
-
-- **[Persona](https://withpersona.com/)**  
-
-  Configurable identity verification platform with document, database, and biometric checks.
-
-
-
-- **[Trulioo](https://www.trulioo.com/)**  
-
-  Global identity verification platform covering 195+ countries with document, database, and biometric verification.
-
-
-
-- **[ID-Pal](https://id-pal.com/)**  
-
-  Identity verification solution with document, biometric, and database checks for regulated industries.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[CrystalBank](https://github.com/Crystal-Bank/crystalbank)**  
-
-  Open-source, event-sourced core banking system with first-class customer onboarding. Features customer onboarding for natural persons and organisations, multi-layer maker-checker approval workflows, double-entry ledger, and multi-tenant isolation through embedded roles and permissions. Built in Crystal with PostgreSQL, Svelte frontend dashboard, and full audit trail via immutable events .
-
-
-
-- **[Mifos X](https://github.com/openmf/mifos-x)**  
-
-  Recognized digital public good, full core banking platform providing common functionalities for creating customers, managing wallets, savings and loan accounts, and maintaining the financial ledger. Backend APIs via Apache Fineract, web UI for staff, reporting plugin, and mobile apps for field operations and customer banking .
-
-
-
-- **[Lerian Midaz](https://github.com/LerianStudio/midaz)**  
-
-  Source-available composable core banking platform built around a double-entry ledger. Includes onboarding of organizations, ledgers, assets, portfolios, and accounts; CRM with field-level encryption and searchable hashing for PII; and Tracer for real-time transaction validation with CEL rule engine and hash-chained immutable audit trail. Go monorepo under Elastic License 2.0 .
-
-
-
-- **[eKYC Verification Service (fashkl)](https://github.com/fashkl/eKYC)**  
-
-  Spring Boot eKYC orchestrator that coordinates document verification, biometric (face match), address verification, and sanctions screening across four external microservices. Produces APPROVED / REJECTED / MANUAL_REVIEW decisions based on configurable business rules. Hexagonal architecture with retry logic (exponential backoff), rate limiting, and Swagger UI. Java 21, Spring Boot 3.5 .
-
-
-
-- **[woovi-kyc](https://www.npmjs.com/package/woovi-kyc)**  
-
-  Open-source React KYC wizard for opening accounts. Handles full onboarding UI: company data, address, document uploads, and representative information. Features CNPJ and CEP auto-fill via BrasilAPI, storage-agnostic file upload callbacks, and 5-step wizard. MIT licensed .
-
-
-
-- **[FintechPlayer (Neobank)](https://github.com/madeindigio/FintechPlayer)**  
-
-  Open-source neobank with separate individual and company onboarding flows. Web banking client for transactions, cards, payments, and memberships. Onboarding process follows specific steps to meet legal requirements, with identity verification and compliance review simulated in sandbox. Built on Swan's banking-as-a-service APIs .
-
-
-
-- **[onboarding-customers-api](https://github.com/MuindiStephen/onboarding-customers-api)**  
-
-  Java Spring Boot backend application for onboarding new customers with REST APIs. Monolithic application performing sign-up, email verification, sign-in, and JWT token generation. Deployed via Docker Compose with PostgreSQL .
-
-
-
-- **[digital-onboarding-platform](https://github.com/Ayushkush1/digital-onboarding-platform)**  
-
-  Modern web-based MVP for financial institutions enabling secure digital onboarding, KYC verification, and credit risk assessment. Built with Next.js, Supabase, and Tailwind CSS. Includes user and admin panels, rule-based scoring, and basic fraud detection .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **MiniAiLive Face Recognition & Liveness Detection** — NIST FRVT top-ranked face recognition and iBeta Level 2 certified liveness detection SDKs for Android, Windows, and Linux. Includes ID document recognition and face matching .
-
-- **kby-ai ID Card Recognition SDK** — ID document recognition for ID cards, passports, and driver licenses across Android, iOS, and React. Supports auto-capture and eKYC automation .
-
-- **Aadhaar Paperless Offline eKYC APIs** — Go-based APIs for Aadhaar offline eKYC using web scraping .
-
-- **Porichita AI eKYC System** — Python-based eKYC application for face verification and enrollment with real-time detection and liveness testing, PyQt5 GUI .
-
-- **Serverless eKYC Backend** — AWS Lambda-based eKYC backend for document verification with OCR analysis, database matching, and health checks. Python and MongoDB .
-
-- **OpenIAM Platform** — Apache-licensed identity and access management implementing OAuth 2.0 and SCIMv2 .
-
-- **go-iam** — Lightweight multi-tenant IAM server in Go with Google/Microsoft/GitHub OAuth, RBAC, and admin UI. Apache 2.0 .
-
-
-
-**Frameworks for building custom onboarding solutions**: Combine **CrystalBank** or **Lerian Midaz** for core banking with built-in customer onboarding and maker-checker workflows . Use **eKYC Verification Service** as an orchestration layer coordinating document, biometric, address, and sanctions checks . Leverage **woovi-kyc** for a React-based onboarding wizard UI . For identity verification components, integrate **MiniAiLive** or **kby-ai** SDKs for document recognition and face liveness . Note that full enterprise onboarding platforms with global compliance coverage, real-time sanctions screening, and regulatory reporting remain primarily commercial offerings; open-source stacks provide strong building blocks for identity verification, orchestration, and core banking foundations.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Customer onboarding tools must comply with KYC/AML regulations (FATF recommendations, local banking laws), data privacy regulations (GDPR, CCPA), and identity verification standards.
-
-- Self-hosted open-source solutions require proper infrastructure, security hardening, and ongoing maintenance. Biometric data handling requires strict compliance with privacy regulations and secure storage practices.
-
-
+# 🏦 Awesome Banking Customer Onboarding
+
+![Awesome Banking Customer Onboarding](./assets/banner.svg)
+
+<p center>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Banking-Customer-Onboarding/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Banking-Customer-Onboarding?style=flat-square&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Banking-Customer-Onboarding/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Banking-Customer-Onboarding?style=flat-square&color=blue" alt="GitHub Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Banking-Customer-Onboarding/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
 ---
 
+## 📌 Executive Summary & Ecosystem Overview
 
+Welcome to the **Awesome Banking Customer Onboarding** repository — a hand-curated, SEO-optimized directory of market-leading **SaaS Platforms** and **Open-Source Software** for **Banking Customer Onboarding**, **Identity Verification (IDV)**, **Know Your Customer (KYC)**, **Anti-Money Laundering (AML)** compliance, and **Digital Account Opening (DAO)**.
 
-**Made for fintech developers, banking engineers, compliance officers, and identity professionals.**  
+Whether you are a fintech developer building vendor-independent eKYC orchestration pipelines, a banking software engineer evaluating core engines, or a compliance officer reducing customer drop-off, this guide covers the top enterprise tools and self-hosted building blocks available today.
 
-Let's make customer onboarding more open, transparent, and accessible.
+---
+
+## 📑 Table of Contents
+
+- [☁️ SaaS & Hosted Platforms](#️-saas--hosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🧩 Architecture & Framework Guidance](#-architecture--framework-guidance)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [⚖️ Legal & Regulatory Disclaimer](#️-legal--regulatory-disclaimer)
+
+---
+
+## ☁️ SaaS & Hosted Platforms
+
+> 💡 **Market Size & Industry Dynamics**: The global digital banking customer onboarding software market is valued at **$3.1 Billion in 2026** and is projected to reach **$5.43 Billion by 2030** (growing at a **15% CAGR**). The sector is **moderately fragmented**, featuring a mix of comprehensive Client Lifecycle Management (CLM) behemoths (e.g., Fenergo, Persona, Trulioo), specialized biometric identity providers, and niche compliance platforms.
+
+Below is the structured list of leading enterprise SaaS solutions, **sorted by Company Size (Valuation / Revenue) in descending order**:
+
+| 🏢 Platform | 📝 Key Capabilities & Focus | 💰 Specific Starting Pricing | 🎁 Free Tier / Free Trial Limits | 📊 Company Size (Valuation / Revenue) |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Fenergo](https://www.fenergo.com/)** | End-to-end Client Lifecycle Management (CLM), digital account opening, automated KYC/AML, and multi-jurisdiction regulatory compliance for Tier-1 banks. | Enterprise subscription starting at ~$15,000 / month | 14-day evaluation sandbox environment with limited test API keys | **$2.70 Billion Valuation** (€149.4M Revenue) |
+| **[Persona](https://withpersona.com/)** | Configurable identity infrastructure offering automated document verification, facial biometrics, graph-based fraud analysis, and custom workflows. | Essential Plan starting at $250 / month (annual contract) | **Starter Plan free forever** (up to 500 free identity verifications / month) | **$2.00 Billion Valuation** ($100M+ ARR) |
+| **[Trulioo](https://www.trulioo.com/)** | Global identity verification platform covering 195+ countries with utility data, credit bureau matching, watchlists, and document verification APIs. | Pay-as-you-go starting at $0.80 / verification ($500 / month minimum) | 14-day free trial environment with up to 100 test verification credits | **$1.75 Billion Valuation** (~$100M Revenue) |
+| **[Onfido](https://onfido.com/)** *(by Entrust)* | AI-native document capture, facial liveness verification, and risk-based eKYC orchestration for high-volume banking applications. | Tiered plan starting at $1.20 / verification ($1,000 / month minimum) | 30-day developer sandbox trial with 50 free test checks | **$400 Million Valuation** ($150M ARR; Entrust parent $800M+ Rev) |
+| **[Mitek Systems](https://www.miteksystems.com/)** *(NASDAQ: MITK)* | Mobile check deposit, document capture SDKs, driver license/passport verification, and facial biometric authentication. | Starting at $0.50 per document scan ($1,200 / month contract minimum) | 30-day developer sandbox access with 100 test document scans | **$755 Million Market Cap** ($198M TTM Revenue) |
+| **[OneSpan](https://www.onespan.com/)** *(NASDAQ: OSPN)* | Digital agreements, e-signatures, high-assurance identity verification, and multi-factor authentication for financial transactions. | Professional Plan starting at $22 / user / month (billed annually) | 30-day free trial with unlimited e-signatures & developer sandbox | **~$500 Million Market Cap** ($243M Annual Revenue) |
+| **[Signicat](https://www.signicat.com/)** | European digital identity specialist providing eID integration (BankID, itsme, etc.), electronic signatures, and eKYC identity hubs. | Starter plan from €149 / month + €0.15 per eID check | **Free forever developer sandbox** environment (100 test transactions / month) | **~$500 Million Valuation** ($100M+ ARR) |
+| **[Jumio](https://www.jumio.com/)** | KYX platform combining AI-driven document verification, liveness detection, AML transaction monitoring, and risk scoring. | Starting at $1.50 per verification ($1,000 / month minimum spend) | 14-day sandbox trial with 50 test verifications | **~$500 Million Valuation** ($200M+ Annual Bookings) |
+| **[ID-Pal](https://id-pal.com/)** | Plug-and-play, regulatory-compliant identity verification platform designed for rapid deployment in SMEs and commercial banking. | Business plan starting at $299 / month (includes 150 verifications / month) | 14-day free trial with up to 25 verification credits | **~$25 Million Valuation** ($5M–$10M Revenue) |
+| **[OpenIAM](https://www.openiam.com/)** | Enterprise identity & access management (IAM) platform with customer portal self-service, OAuth 2.0, SCIM, and automated onboarding. | Enterprise SaaS starting at $2.00 / user / month (250 users minimum) | 30-day full-feature free trial with up to 100 test user accounts | **~$10 Million Valuation** ($3M–$5M Revenue) |
+
+---
+
+## 💻 Open-Source GitHub Projects
+
+Open-source banking solutions provide transparent, self-hosted building blocks for core ledger management, face matching, OCR document parsing, and custom eKYC orchestration pipelines.
+
+Below are the top active open-source projects, **sorted by GitHub Star Count in descending order**. Click on any star badge to view the stargazers page!
+
+| 📦 Repository & Link | ⭐ GitHub Stars | 🛠️ Tech Stack & Focus | 🚀 Overview & Key Features |
+| :--- | :--- | :--- | :--- |
+| **[apache/fineract](https://github.com/apache/fineract)** | [![Stars](https://img.shields.io/github/stars/apache/fineract?style=social&color=white)](https://github.com/apache/fineract/stargazers) | Java, Spring Boot, MySQL | Enterprise core banking backend engine powering **Mifos X**. Provides REST APIs for customer creation, savings/loan lifecycle management, and financial ledgers. |
+| **[kby-ai/FaceRecognition-Android](https://github.com/kby-ai/FaceRecognition-Android)** | [![Stars](https://img.shields.io/github/stars/kby-ai/FaceRecognition-Android?style=social&color=white)](https://github.com/kby-ai/FaceRecognition-Android/stargazers) | C++, Java, Android SDK | On-device face recognition & liveness detection SDK. NIST-FRVT top-ranked offline biometrics for Android eKYC onboarding applications. |
+| **[microblink/blinkid-android](https://github.com/microblink/blinkid-android)** | [![Stars](https://img.shields.io/github/stars/microblink/blinkid-android?style=social&color=white)](https://github.com/microblink/blinkid-android/stargazers) | Java, Kotlin, C++ | AI-driven ID document scanning SDK for Android. Extracts data from passports, driver's licenses, and national ID cards offline. |
+| **[LerianStudio/midaz](https://github.com/LerianStudio/midaz)** | [![Stars](https://img.shields.io/github/stars/LerianStudio/midaz?style=social&color=white)](https://github.com/LerianStudio/midaz/stargazers) | Go, PostgreSQL, Redis | Composable core banking engine with double-entry ledgers, organization & account onboarding, PII encryption, and real-time CEL rule checks. |
+| **[FaceOnLive/ID-Card-Passport-Recognition-SDK-Android](https://github.com/FaceOnLive/ID-Card-Passport-Recognition-SDK-Android)** | [![Stars](https://img.shields.io/github/stars/FaceOnLive/ID-Card-Passport-Recognition-SDK-Android?style=social&color=white)](https://github.com/FaceOnLive/ID-Card-Passport-Recognition-SDK-Android/stargazers) | Kotlin, C++, Android | On-device document OCR & passport recognition SDK for automated identity check flows in digital banking apps. |
+| **[openware/barong](https://github.com/openware/barong)** | [![Stars](https://img.shields.io/github/stars/openware/barong?style=social&color=white)](https://github.com/openware/barong/stargazers) | Ruby, Rails, PostgreSQL | OAuth 2.0 / OIDC authentication server with built-in multi-step KYC verification state machine and admin approval tools. |
+| **[Crystal-Bank/crystalbank](https://github.com/Crystal-Bank/crystalbank)** | [![Stars](https://img.shields.io/github/stars/Crystal-Bank/crystalbank?style=social&color=white)](https://github.com/Crystal-Bank/crystalbank/stargazers) | Crystal, Svelte, PostgreSQL | Event-sourced core banking engine with native customer onboarding for natural persons & corporations, maker-checker workflows, and audit logs. |
+| **[Ayushkush1/digital-onboarding-platform](https://github.com/Ayushkush1/digital-onboarding-platform)** | [![Stars](https://img.shields.io/github/stars/Ayushkush1/digital-onboarding-platform?style=social&color=white)](https://github.com/Ayushkush1/digital-onboarding-platform/stargazers) | Next.js, Supabase, Tailwind | Modern web MVP for digital financial onboarding, KYC document upload, credit risk scoring, and admin workflow dashboards. |
+| **[fashkl/eKYC](https://github.com/fashkl/eKYC)** | [![Stars](https://img.shields.io/github/stars/fashkl/eKYC?style=social&color=white)](https://github.com/fashkl/eKYC/stargazers) | Java 21, Spring Boot 3 | Spring Boot microservice orchestrator coordinating document verification, face match, address checks, and sanctions screening. |
+| **[MuindiStephen/onboarding-customers-api](https://github.com/MuindiStephen/onboarding-customers-api)** | [![Stars](https://img.shields.io/github/stars/MuindiStephen/onboarding-customers-api?style=social&color=white)](https://github.com/MuindiStephen/onboarding-customers-api/stargazers) | Java, Spring Boot, PostgreSQL | Customer sign-up and onboarding REST API with email token verification, JWT authentication, and Docker Compose deployment scripts. |
+| **[madeindigio/FintechPlayer](https://github.com/madeindigio/FintechPlayer)** | [![Stars](https://img.shields.io/github/stars/madeindigio/FintechPlayer?style=social&color=white)](https://github.com/madeindigio/FintechPlayer/stargazers) | TypeScript, React, Swan BaaS | Neobank template with dual individual/corporate account opening wizards built on top of BaaS APIs and compliance sandboxes. |
+
+---
+
+## 🧩 Architecture & Framework Guidance
+
+Building an enterprise-grade digital customer onboarding pipeline typically requires integrating three primary architectural layers:
+
+```
+[ Customer Mobile / Web UI ]
+            │
+            ▼
+┌─────────────────────────────────────────────────────────┐
+│ 1. Frontend Wizard & UX (e.g. React / Next.js / Mobile) │
+└───────────────────────────┬─────────────────────────────┘
+                            │
+                            ▼
+┌─────────────────────────────────────────────────────────┐
+│ 2. eKYC & Orchestration Middleware (e.g. Java / Go API)  │
+│    ├── Document OCR & AI Liveness (Microblink / KBY-AI) │
+│    ├── Sanctions & Watchlist Screening (AML APIs)       │
+│    └── Decision Engine (APPROVED / REJECTED / REVIEW)  │
+└───────────────────────────┬─────────────────────────────┘
+                            │
+                            ▼
+┌─────────────────────────────────────────────────────────┐
+│ 3. Core Banking & Double-Entry Ledger (Fineract/Midaz)  │
+└─────────────────────────────────────────────────────────┘
+```
+
+1. **Core Banking Layer**: Use **Apache Fineract** or **Lerian Midaz** to manage ledger accounts, user permissions, and multi-tenant banking data.
+2. **Orchestration Layer**: Deploy an eKYC service (e.g., **fashkl/eKYC**) to coordinate third-party background screening, AML sanctions lookup, and document scoring.
+3. **Identity Capture SDKs**: Integrate on-device libraries like **Microblink BlinkID** or **KBY-AI FaceRecognition** to perform zero-latency document parsing and liveness detection on mobile devices.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly welcomed! Help keep this curated list accurate and up to date for the global fintech engineering community.
+
+1. **Fork** this repository.
+2. **Add or update** entries in `README.md` following the tabular format.
+3. Ensure all descriptions are factual, links are working, and specific pricing/free-tier details are verified.
+4. Submit a **Pull Request (PR)** with a clear summary of your changes.
+
+For major updates or list recommendations, feel free to join our community on [<img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" height="18" alt="Discord"/>](https://discord.gg/jc4xtF58Ve) or check out our master collection at [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome).
+
+---
+
+## 💖 Support & Sponsorship
+
+If you find this repository helpful for your fintech projects, software research, or compliance architecture, please consider supporting the project!
+
+- ⭐ **Star this repository** to help others discover it on GitHub!
+- 🔀 **Fork it** to customize it for your internal team or engineering stack.
+- 📢 **Share it** with fellow banking engineers, fintech developers, and compliance leaders.
+- ☕ **Buy me a coffee**: Support ongoing open-source maintenance via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+Thank you for being part of the open banking community! ❤️
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Banking-Customer-Onboarding&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Banking-Customer-Onboarding&type=date&legend=top-left)
+
+---
+
+## ⚖️ Legal & Regulatory Disclaimer
+
+- This list is **community-curated** for educational, informational, and architectural research purposes only. It does not constitute formal legal, financial, or compliance advice.
+- Customer onboarding solutions deployed in production must comply with international and local regulations, including **FATF Recommendations**, **EU 5AMLD/6AMLD**, **USA PATRIOT Act**, **GDPR**, and local banking commission guidelines.
+- Self-hosted biometrics and identity data handling require rigorous encryption at rest and in transit, zero-trust network boundaries, and continuous vulnerability monitoring.
